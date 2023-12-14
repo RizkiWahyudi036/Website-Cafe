@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/logo/icon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="main/style.css">
+
+
+    <title>The Sultan Cafe</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top" style="background-color:#1d1d1d ; ">
+      <div class="container">
+          <a class="navbar-brand " href="index.html"><img src="assets/logo/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Our Menu
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="food.html">Food</a></li>
+                        <li><a class="dropdown-item" href="drink.html">Drink</a></li>
+                    </ul>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="galeri.html">Galery</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" href="juruMasak.html">Chefs</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Contact Us
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                      <li><a class="dropdown-item" href="reservasi.html">Reservation</a></li>
+                  </ul>
+              </li>
+                  
+              </ul>
+              <div>
+                  <div class="ps-2">
+                      <small class="call mb-0">Call Us</small>
+                      <p class=" number text-bg-dark fs-5 mb-0">+62859-9999-9999</p>
+                  </div>
+          </div>
+          </div>
+      </div>
+      </div>
+      </nav>
+      <!-- End -->
+
+<!-- ***** Reservation Us Area Starts ***** -->
+<section class="section" id="reservation">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 align-self-center">
+              <div class="left-text-content">
+                  <div class="section-heading">
+                      <h6>Contact Us</h6>
+                      <h2>Anda bisa melakukan reservasi kami di sini</h2>
+                  </div>
+                  <p>Anda bisa menghubungi kami dengan kontak dibawah, atau mengisi form disamping</p>
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <div class="phone">
+                              <img src="icons/bootstrap-icons-1.9.0/phone.svg" alt="">
+                              <h4>Phone Number</h4>
+                              <span><a href="#">0859-9999-9999</a></span>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="message">
+                              <img src="icons/bootstrap-icons-1.9.0/envelope.svg" alt="">
+                              <h4>Email</h4>
+                              <span><a href="#">thesultancafe001@gmail.com</a></span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="contact-form">
+                  <form id="form-contact" action="" method="post">
+                    <div class="row">
+                      <div class="col-lg-12">
+                          <h4>Table Reservasi</h4>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <fieldset>
+                          <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <fieldset>
+                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                      </fieldset>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <fieldset>
+                          <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <fieldset>
+                          <select value="number-guests" name="number-guests" id="number-guests">
+                              <option value="number-guests">Number Of Guests</option>
+                              <option name="1" id="1">1</option>
+                              <option name="2" id="2">2</option>
+                              <option name="3" id="3">3</option>
+                              <option name="4" id="4">4</option>
+                              <option name="5" id="5">5</option>
+                              <option name="6" id="6">6</option>
+                              <option name="7" id="7">7</option>
+                              <option name="8" id="8">8</option>
+                              <option name="9" id="9">9</option>
+                              <option name="10" id="10">10</option>
+                              <option name="11" id="11">11</option>
+                              <option name="12" id="12">12</option>
+                          </select>
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-6">
+                          <div id="filterDate2">    
+                            <div class="input-group date" data-date-format="dd/mm/yyyy">
+                              <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+                              <div class="input-group-addon" >
+                                <span class="glyphicon glyphicon-th"></span>
+                              </div>
+                            </div>
+                          </div>   
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <fieldset>
+                          <select value="time" name="time" id="time">
+                              <option value="time">Time</option>
+                              <option name="Breakfast" id="Breakfast">Breakfast</option>
+                              <option name="Lunch" id="Lunch">Lunch</option>
+                              <option name="Dinner" id="Dinner">Dinner</option>
+                          </select>
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-12">
+                        <fieldset>
+                          <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-12">
+                        <fieldset>
+                          <button type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- ***** Reservation Area Ends ***** -->
+
+<!-- ***** Footer Start ***** -->
+<footer id="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-xs-12">
+              <div class="right-text-content">
+                      <ul class="social-icons">
+                          <li><a href="#"><img src="icons/bootstrap-icons-1.9.0/facebook.svg" alt=""></a></li>
+                          <li><a href="#"><img src="icons/bootstrap-icons-1.9.0/twitter.svg" alt=""></a></li>
+                          <li><a href="#"><img src="icons/bootstrap-icons-1.9.0/instagram.svg" alt=""></a></li>
+                          <li><a href="#"><img src="icons/bootstrap-icons-1.9.0/whatsapp.svg" alt=""></a></li>
+                      </ul>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="brand">
+                  <a href="index.html"><img src="assets/logo/logo-2.png" alt=""></a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+              <div class="left-text-content">
+                  <p>© Copyright Sultan Cafe.
+                  
+                  <br>Design by: <b>Team</b> </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- ***** End Footer ***** -->
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="main css/main.js"></script>
+
+ 
+
+  </body>
+</html>
